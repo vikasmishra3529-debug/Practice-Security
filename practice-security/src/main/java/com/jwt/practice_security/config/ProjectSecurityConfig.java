@@ -45,7 +45,6 @@ public class ProjectSecurityConfig {
 //                        .ignoringRequestMatchers( "/contact","/register", "/apiLogin")
 //                        .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()))
 //                .addFilterAfter(new CsrfCookieFilter(), BasicAuthenticationFilter.class)
-                .cors(AbstractHttpConfigurer::disable)
                 .csrf(AbstractHttpConfigurer::disable)
                 .addFilterBefore(new RequestValidationBeforeFilter(), BasicAuthenticationFilter.class)
 //                .addFilterAfter(new AuthoritiesLoggingAfterFilter(), BasicAuthenticationFilter.class)

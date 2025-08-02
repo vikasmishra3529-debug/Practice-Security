@@ -1,6 +1,6 @@
 package com.jwt.practice_security.filter;
 
-import com.eazybytes.constants.ApplicationConstants;
+import com.jwt.practice_security.constants.ApplicationConstants;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.security.Keys;

@@ -1,7 +1,7 @@
 package com.jwt.practice_security.controller;
 
-import com.eazybytes.model.Notice;
-import com.eazybytes.repository.NoticeRepository;
+import com.jwt.practice_security.model.Notice;
+import com.jwt.practice_security.repository.NoticeRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.CacheControl;
 import org.springframework.http.ResponseEntity;

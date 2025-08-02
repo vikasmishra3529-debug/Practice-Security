@@ -1,7 +1,7 @@
 package com.jwt.practice_security.controller;
 
-import com.eazybytes.model.Loans;
-import com.eazybytes.repository.LoanRepository;
+import com.jwt.practice_security.model.Loans;
+import com.jwt.practice_security.repository.LoanRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

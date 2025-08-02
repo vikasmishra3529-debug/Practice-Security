@@ -1,7 +1,7 @@
 package com.jwt.practice_security.controller;
 
-import com.eazybytes.model.Contact;
-import com.eazybytes.repository.ContactRepository;
+import com.jwt.practice_security.model.Contact;
+import com.jwt.practice_security.repository.ContactRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

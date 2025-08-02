@@ -1,7 +1,7 @@
 package com.jwt.practice_security.controller;
 
-import com.eazybytes.model.AccountTransactions;
-import com.eazybytes.repository.AccountTransactionsRepository;
+import com.jwt.practice_security.model.AccountTransactions;
+import com.jwt.practice_security.repository.AccountTransactionsRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;

@@ -1,7 +1,7 @@
 package com.jwt.practice_security.controller;
 
-import com.eazybytes.model.Cards;
-import com.eazybytes.repository.CardsRepository;
+import com.jwt.practice_security.model.Cards;
+import com.jwt.practice_security.repository.CardsRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
